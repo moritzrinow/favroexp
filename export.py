@@ -23,7 +23,7 @@ def get_collections():
   path = get_url("collections")
   r = requests.get(path, headers={
     "organizationId": org,
-    "archived": "true"archive
+    "archived": "true"
   }, auth=auth).content
   return json.loads(r)['entities']
 
