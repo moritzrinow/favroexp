@@ -30,4 +30,4 @@ def get_collections():
 collections = get_collections()
 
 for collection in collections:
-  print(collection['name'])
+  print(collection.get('name'))
