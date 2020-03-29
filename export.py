@@ -34,7 +34,9 @@ def rate_limit_exceeded_and_sleep(response):
   
   print('Request limit for Favro\'s API has exceeded and will reset at {0}'.format(reset_date))
   print('Waiting for reset...')
-  time.sleep(span.seconds)
+  time.sleep(span.seconds + 1)
+
+  print('Continue...')
 
   return True
 
