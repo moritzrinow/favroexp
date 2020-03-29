@@ -1,5 +1,6 @@
 {
-  "data": "data",
+  "api": "https://favro.com/api/v1/",
+  "dataDir": "data",
   "user": "yourmail@server.com",
   "organization": "your_organization_id",
   "token": "your_token"
